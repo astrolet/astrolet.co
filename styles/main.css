@@ -64,8 +64,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 
 /* line 8, _fonts.sass */
-.fonts-more {
-  font-family: "apertura-condensed-1", "apertura-condensed-2", "Helvetica Neue", Arial, Helvetica, sans-serif;
+.fonts-dens {
+  font-family: "apertura-condensed", "Helvetica Neue", Arial, Helvetica, sans-serif;
 }
 
 /* line 13, _fonts.sass */
@@ -100,7 +100,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 #co #index {
   margin-left: 75px;
   background-color: white;
-  font-family: "apertura-condensed-1", "apertura-condensed-2", "Helvetica Neue", Arial, Helvetica, sans-serif;
+  font-family: "apertura-condensed", "Helvetica Neue", Arial, Helvetica, sans-serif;
   padding: 7px;
   padding-left: 11px;
   border: 1px solid darkgreen;
