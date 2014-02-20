@@ -5,6 +5,10 @@ http_path = "/"
 css_dir = "styles"
 sass_dir = "styles"
 javascripts_dir = "scripts"
+project_type = :stand_alone
+output_style = :compressed
+#relative_assets = true
+preferred_syntax = :sass
 
 # You can select your preferred output style here (can be overridden via the command line):
 # output_style = :expanded or :nested or :compact or :compressed
