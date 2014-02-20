@@ -5,6 +5,7 @@
 #co
   padding: 25px
   padding-top: 50px
+  $padding: 7px
 
   a
     &:hover
@@ -14,17 +15,17 @@
       text-decoration: none
 
   p.pushed
-    padding-top: 7px
+    padding-top: $padding
 
   #social
-    padding-top: 7px
+    padding-top: $padding
     float: left
 
   #index
     margin-left: 75px
     background-color: white
     +font-vars($fonts-dens)
-    padding: 7px
+    padding: $padding
     padding-left: 11px
     border: 1px solid darkgreen
     +single-box-shadow(lightgrey, 0px, 0px, 5px)

@@ -78,25 +78,25 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   padding: 25px;
   padding-top: 50px;
 }
-/* line 10, main.sass */
+/* line 11, main.sass */
 #co a:hover {
   text-decoration: none;
   color: #742c22;
 }
-/* line 13, main.sass */
+/* line 14, main.sass */
 #co a:active {
   text-decoration: none;
 }
-/* line 16, main.sass */
+/* line 17, main.sass */
 #co p.pushed {
   padding-top: 7px;
 }
-/* line 19, main.sass */
+/* line 20, main.sass */
 #co #social {
   padding-top: 7px;
   float: left;
 }
-/* line 23, main.sass */
+/* line 24, main.sass */
 #co #index {
   margin-left: 75px;
   background-color: white;
@@ -114,7 +114,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   border-radius: 5px;
   width: 300px;
 }
-/* line 34, main.sass */
+/* line 35, main.sass */
 #co #spinner {
   float: right;
   margin-right: -57px;
