@@ -1,0 +1,14 @@
+$sans-fonts: "Helvetica Neue", Arial, Helvetica, sans-serif
+$fonts-more: "apertura-condensed-1", "apertura-condensed-2"
+//$fonts-text: "apertura-1", "apertura-2"
+
+=font-vars($family)
+  font-family: $family, $sans-fonts
+
+.fonts-more
+  +font-vars($fonts-more)
+//.fonts-text
+//  +font-vars($fonts-text)
+
+.bold
+  font-weight: bold

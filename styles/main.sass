@@ -1,0 +1,36 @@
+@import screen
+@import compass/css3/box-shadow
+@import compass/css3/border-radius
+
+#co
+  padding: 25px
+  padding-top: 50px
+
+  a
+    &:hover
+      text-decoration: none
+      color: mix(#5E5945, darkred) // the first is itemerge brown
+    &:active
+      text-decoration: none
+
+  p.pushed
+    padding-top: 7px
+
+  #social
+    padding-top: 7px
+    float: left
+
+  #index
+    margin-left: 75px
+    background-color: white
+    +font-vars($fonts-more)
+    padding: 7px
+    padding-left: 11px
+    border: 1px solid darkgreen
+    +single-box-shadow(lightgrey, 0px, 0px, 5px)
+    +border-radius
+    width: 300px
+
+  #spinner
+    float: right
+    margin-right: -57px

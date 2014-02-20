@@ -1,0 +1,56 @@
+!!! 5
+html(lang="en")
+
+  head
+    meta(charset="utf-8")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge,chrome=1")
+    meta(name="viewport", content="width=device-width")
+
+    title= "Astrolet: " + title
+
+    script(src="/scripts/vendor/modernizr.min.js")
+    script(src="/scripts/vendor/jquery.min.js")
+
+    style.
+      .wf-loading { visibility: hidden }
+      .wf-active { visibility: visible }
+      .wf-inactive { visibility: visible }
+      .typekit-nowait { visibility: visible }
+
+    script(src="http://use.typekit.com/mwj8ame.js")
+    script.
+      try { Typekit.load({
+        loading: function() {
+          $("#spinner").css({ visibility: "visible" });
+        },
+        active: function() {
+          $("#spinner").css({ visibility: "hidden" });
+        },
+        inactive: function() {
+          $("#spinner").css({ visibility: "hidden" });
+        }});
+      } catch(e) {}
+
+    script(src="/scripts/vendor/underscore-min.js")
+    script(src="/scripts/vendor/raphael-min.js")
+    script(src="/scripts/vendor/spin.min.js")
+    script(src="/scripts/co.js")
+
+    script.
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-23064493-2']);
+      _gaq.push(['_setDomainName', 'astrolet.co']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+
+    link(rel="stylesheet", href="/styles/main.css")
+
+  body
+    #whole
+      #co.container
+        != yield
