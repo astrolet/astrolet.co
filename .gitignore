@@ -6,6 +6,7 @@
 .svn/*
 
 lib-cov
+lcov.info
 *.seed
 *.log
 *.csv
@@ -17,15 +18,9 @@ lib-cov
 pids
 logs
 results
+build
 
 node_modules
 npm-debug.log
 
-docs
-pages
-
-temp
-dist
-
 .sass-cache
-
