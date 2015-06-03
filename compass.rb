@@ -2,9 +2,9 @@
 
 # Set this to the root of your project when deployed:
 http_path = "/"
-css_dir = "styles"
+css_dir = "harp/styles"
 sass_dir = "styles"
-javascripts_dir = "scripts"
+javascripts_dir = "harp/scripts"
 project_type = :stand_alone
 output_style = :compressed
 #relative_assets = true
