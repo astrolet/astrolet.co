@@ -1,12 +1,14 @@
 {
   "devDependencies": {
     "beverage": "0.0.2",
+    "browser-sync": "^2.7.6",
     "coffeelint": "^1.10.1",
     "gulp": "^3.9.0"
   },
   "scripts": {
     "build": "compass compile -c compass.rb",
     "serve": "harp server src",
+    "bsync": "node_modules/.bin/browser-sync start --proxy localhost:9000 --files 'src/**/*'",
     "compile": "harp compile src www",
     "deploy": "surge www"
   }
