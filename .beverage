@@ -1,4 +1,5 @@
 {
+  "buildWatch": ["compass.rb", "styles/**/*.sass"],
   "sourcegate": [
     {"recipe": "coffeelint", "preset": "coffeescript-style-guide"}
   ]

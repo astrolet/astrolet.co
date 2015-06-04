@@ -9,6 +9,7 @@ project_type = :stand_alone
 output_style = :compressed
 #relative_assets = true
 preferred_syntax = :sass
+sourcemap = true
 
 # You can select your preferred output style here (can be overridden via the command line):
 # output_style = :expanded or :nested or :compact or :compressed
