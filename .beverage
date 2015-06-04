@@ -1,4 +1,9 @@
 {
+  "scripts": {
+    "include": {
+      "bsync": "browser-sync, depends on the serve task"
+    }
+  },
   "buildWatch": ["compass.rb", "styles/**/*.sass"],
   "sourcegate": [
     {"recipe": "coffeelint", "preset": "coffeescript-style-guide"}

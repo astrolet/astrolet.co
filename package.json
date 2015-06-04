@@ -8,7 +8,7 @@
   "scripts": {
     "build": "compass compile -c compass.rb",
     "serve": "harp server src",
-    "bsync": "node_modules/.bin/browser-sync start --proxy localhost:9000 --files 'src/**/*'",
+    "bsync": "node_modules/.bin/browser-sync start --proxy localhost:9000 --files 'src/**/*' --no-open",
     "compile": "harp compile src www",
     "deploy": "surge www"
   }
