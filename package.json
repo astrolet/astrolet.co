@@ -1,6 +1,7 @@
 {
   "devDependencies": {
     "beverage": "0.0.2",
+    "coffeelint": "^1.10.1",
     "gulp": "^3.9.0"
   },
   "scripts": {
