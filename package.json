@@ -1,0 +1,12 @@
+{
+  "devDependencies": {
+    "beverage": "0.0.2",
+    "gulp": "^3.9.0"
+  },
+  "scripts": {
+    "build": "compass compile -c compass.rb",
+    "serve": "harp server src",
+    "compile": "harp compile src www",
+    "deploy": "surge www"
+  }
+}

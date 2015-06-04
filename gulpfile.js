@@ -1,0 +1,1 @@
+require('beverage')(require('gulp'));
