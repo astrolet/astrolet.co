@@ -1,0 +1,5 @@
+{
+  "sourcegate": [
+    {"recipe": "coffeelint", "preset": "coffeescript-style-guide"}
+  ]
+}
