@@ -6,10 +6,10 @@
     "gulp": "^3.9.0"
   },
   "scripts": {
-    "build": "compass compile -c compass.rb",
+    "style": "compass compile -c compass.rb",
     "serve": "harp server src",
     "bsync": "node_modules/.bin/browser-sync start --proxy localhost:9000 --files 'src/**/*' --no-open",
-    "compile": "harp compile src www",
+    "build": "npm run style && harp compile src www",
     "deploy": "surge www"
   }
 }
