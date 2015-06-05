@@ -6,6 +6,20 @@
   },
   "build": "style",
   "buildWatch": ["compass.rb", "styles/**/*.sass"],
+  "harp": {
+    "path": "src",
+    "port": 9000,
+    "sync": {
+      "options": {
+        "open": false,
+        "notify": {
+          "styles": ["opacity: 0"]
+        }
+      },
+      "reload": ["**/*"],
+      "stream": ["**/*.css"]
+    }
+  },
   "sourcegate": [
     {"recipe": "coffeelint", "preset": "coffeescript-style-guide"}
   ]
