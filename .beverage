@@ -8,18 +8,16 @@
   "buildWatch": ["compass.rb", "styles/**/*.sass"],
   "harp": {
     "name": "serve",
-    "help": "harp-serve src & browser-sync",
+    "help": "Harp-serve src & browser-sync",
     "path": "src",
-    "port": 9000,
     "sync": {
       "options": {
+        "proxy": "localhost:9000",
         "open": false,
-        "notify": {
-          "styles": ["opacity: 0"]
-        }
+        "notify": false
       },
-      "reload": ["**/*"],
-      "stream": ["**/*.css"]
+      "reload": ["src/**/*"],
+      "stream": ["src/**/*.css"]
     }
   },
   "sourcegate": [
