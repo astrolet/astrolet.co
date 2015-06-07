@@ -1,7 +1,7 @@
 {
   "scripts": {
     "include": {
-      "bsync": "browser-sync, depends on the serve task"
+      "build": "index.js to index.es5 via babel"
     }
   },
   "build": "style",
@@ -11,11 +11,6 @@
     "help": "Harp-serve src & browser-sync",
     "path": "src",
     "sync": {
-      "options": {
-        "proxy": "localhost:9000",
-        "open": false,
-        "notify": false
-      },
       "reload": ["src/**/*"],
       "stream": ["src/**/*.css"]
     }
