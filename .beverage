@@ -1,0 +1,21 @@
+{
+  "scripts": {
+    "include": {
+      "build": "index.js to index.es5 via babel"
+    }
+  },
+  "build": "style",
+  "buildWatch": ["compass.rb", "styles/**/*.sass"],
+  "harp": {
+    "name": "serve",
+    "help": "Harp-serve src & browser-sync",
+    "path": "src",
+    "sync": {
+      "reload": ["src/**/*"],
+      "stream": ["src/**/*.css"]
+    }
+  },
+  "sourcegate": [
+    {"recipe": "coffeelint", "preset": "coffeescript-style-guide"}
+  ]
+}

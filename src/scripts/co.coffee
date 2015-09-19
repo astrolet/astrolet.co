@@ -94,4 +94,3 @@ window.onload = ->
 # The document is in copletely ready state.
 if window.document.readyState is 'complete'
   window.onload()
-
