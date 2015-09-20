@@ -4,8 +4,7 @@
       "build": "index.js to index.es5 via babel"
     }
   },
-  "build": "style",
-  "buildWatch": ["compass.rb", "styles/**/*.sass"],
+  "causality": ["style", ["compass.rb", "styles/**/*.sass"]],
   "harp": {
     "name": "serve",
     "help": "Harp-serve src & browser-sync",
