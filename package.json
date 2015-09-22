@@ -7,7 +7,7 @@
     "beverage": "0.0.4",
     "coffeelint": "^1.12.1",
     "gulp": "^3.9.0",
-    "gulp-harp": "0.0.1-2",
+    "gulp-harp": "0.0.2",
     "harp": "^0.19.0",
     "jstransformer-marked": "^1.0.1",
     "surge": "^0.15.0"
