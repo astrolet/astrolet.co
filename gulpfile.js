@@ -1,2 +1,2 @@
-gulp = require('beverage')(require('gulp'));
+var gulp = require('beverage')(require('gulp'));
 gulp.task('dev', 'DEVELOP', ['serve', 'sourcegate:watch', 'style:watch']);

@@ -1,7 +1,7 @@
 {
   "scripts": {
     "include": {
-      "build": "index.js to index.es5 via babel"
+      "build": "compass styles and harp compile"
     }
   },
   "causality": ["style", ["compass.rb", "styles/**/*.sass"]],
