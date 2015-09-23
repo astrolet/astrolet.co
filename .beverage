@@ -3,7 +3,7 @@
     "include": {
       "build": "compass styles and harp compile"
     },
-    "withoutNpmRun": false
+    "npmRun": true
   },
   "causality": ["style", ["compass.rb", "styles/**/*.sass"]],
   "harp": {

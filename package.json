@@ -1,10 +1,12 @@
 {
+  "name": "astrolet.co",
+  "private": true,
   "repository": {
     "type": "git",
     "url": "git@github.com:astrolet/astrolet.github.io.git"
   },
   "devDependencies": {
-    "beverage": "0.0.4",
+    "beverage": "0.0.5",
     "coffeelint": "^1.12.1",
     "gulp": "^3.9.0",
     "gulp-harp": "0.0.2",
