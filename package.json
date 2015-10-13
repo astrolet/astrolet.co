@@ -5,6 +5,7 @@
     "type": "git",
     "url": "git@github.com:astrolet/astrolet.github.io.git"
   },
+  "homepage": "http://astrolet.co",
   "devDependencies": {
     "beverage": "0.0.5",
     "coffeelint": "^1.12.1",
