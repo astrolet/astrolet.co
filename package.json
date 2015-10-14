@@ -3,7 +3,7 @@
   "private": true,
   "repository": {
     "type": "git",
-    "url": "git@github.com:astrolet/astrolet.github.io.git"
+    "url": "git@github.com:astrolet/astrolet.co.git"
   },
   "homepage": "http://astrolet.co",
   "devDependencies": {
