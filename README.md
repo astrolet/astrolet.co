@@ -1,4 +1,4 @@
-# astrolet.co
+# [astrolet.co](http://astrolet.co)
 
 This website was opensourced mostly to serve as example of [beverage](https://github.com/gulpsome/beverage) + [gulp-harp](https://github.com/gulpsome/gulp-harp) workflow.
 
