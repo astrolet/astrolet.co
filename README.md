@@ -4,16 +4,17 @@ This website was opensourced mostly to serve as example of [beverage](https://gi
 
 ## Prerequisites
 
-Have Node.js / npm and Ruby 2+ installed.  Ruby is for Compass styles.
+Have Node.js / npm and Ruby 2+ installed.  Ruby is for [Compass](http://compass-style.org) styles.
 
 ## Develop
 
 ```shell
 npm install
+npm i -g beverage
 beverage dev
 ```
 
-Links for live-reloading with browser-sync will show in the console.
+Links for live-reloading with [browser-sync](https://www.browsersync.io) will log in the console.
 
 Beverage isn't special, run `gulp dev` if you so prefer.
 Run `gulp` or `beverage` commands to list all the tasks.
