@@ -1,0 +1,74 @@
+==================================================================
+https://keybase.io/oto
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://astrolet.co
+  * I am oto (https://keybase.io/oto) on keybase.
+  * I have a public key with fingerprint FF9D 930D 4C0E 8D13 3530  BE27 B98F 2818 012A AB0B
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01014806a4c1a6a04af797ce6c66e1560427bc591f22adc331e32c51ded4e1263a8b0a",
+            "fingerprint": "ff9d930d4c0e8d133530be27b98f2818012aab0b",
+            "host": "keybase.io",
+            "key_id": "b98f2818012aab0b",
+            "kid": "01014806a4c1a6a04af797ce6c66e1560427bc591f22adc331e32c51ded4e1263a8b0a",
+            "uid": "c46a99969bcb1ded116fad8b1667f300",
+            "username": "oto"
+        },
+        "service": {
+            "hostname": "astrolet.co",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1443899141,
+    "expire_in": 157680000,
+    "prev": "cf1b4f34ebb13da5a846e4663d858a399c69da5545ec8f29d65d61aca170ed7e",
+    "seqno": 5,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.47
+Comment: https://keybase.io/crypto
+
+yMM6AnicrVJrTBRXGF0ei4LBrhrkkZrIiBVwwbk7j51ZTCG0QBQfwVLbUsJyZ+YO
+juDOMjssryKNFaobwwJCsAa0pUYBjZTUEqiWChFsoT8aDQ2021IFSmwLGvqKYrUz
+xP7rz94/N/f7zjn3nC/fjdAAQ4hfvzc2wi/+4iq/scH6EsN+0xZjJcbJQjlmq8QK
+0fKFigTkUu2FkoDZMBzggGRwGpI8gDTESShaWSuPaJ6mEaBonLRYOZ5igWixQIEn
+CIAIC08BAQkkAhaagAyHQ8yMiZKjAClORXKomqwosgJL4ALJ44gRAEFQBM4hTYpl
+RAsDGBxYIORwTiMekF06QzPHQRdKlGStpj3sy/b+A/8/+y5ZluNJGrIsS7Mcz+kY
+AGgRCgwHaNoqEjiuA11IccBDSEPLqoxVmTGt4JZ4pM9UD/GsCV2qIhchNZHXkzgV
+DczLRVrjgKo6bTpPLXfqwFLE2Z9J2DnJIWgD1AhupLgk2YHZgIbkVUnXBCRJMCwL
+SGDGUJlTUpBd0hGUlWZw7ejfILceQwQcKRIk4jhACJCCDEkjkqYJgaEYSLAsT7Na
+mSIpxGuDZQWaEmgAeQisOBKsCNNDFTtkzEZpNmGBJumSChxQLVEQVjU0mBto8Asx
+BBn99cUyhASb/l03Z6bJ8Hbr+XaL2B6deXkll3p+oLv8SZZ/bPGxI/dS0tYuXnvK
+9/bnHuyWPQkH52PMA6Y3EtYEgJrh4MWPLuRs37Zvstn3RXsQAUf21jam7i97Pi9d
+2Tz63Qc/To8mf2nfdOeXCm/4VoNnaoca2LbS+Lsw71iT/oL3j4i+489VEFNB71ds
+HJodSn/nxFtuU0bPWXfJ7ujIjtrM7Lr4n5a+yWq9tzHVdjmaDF+XXW0PfPXovt/u
+F/+94RXP2HRD7+7RmYnxF2fJ2u6Fzj5vxQbpkVQe+3WarTRvafODhYGkJOl6a+GD
+Zt/TtpT27InRs7074407GpB3MqXmUcatY1Ed25vCFiqNN6+H59w1frI0npX18/el
+t3pLP+zIUH7YIoRO7WEnK9/sOTo4H9UZ99IcdnIrU7fi/kxJVmN7crV4I/a9X/tX
+RRA1e84ktZlTxchd6VjKbTOWVxnWNpkc/Hi4JaJp5M8V8lTBYt/hm19lXKHjRqab
+hsUrr4+z+cynzV1R50ovdflywsKrmueeRNX3rL966eFa2mg2Na7PzTUJjwnPoY8/
+D970sjpXh6rffe3UhZ2ruy+2LJlw5a9dZXUdaflXD9dH2/g507lE696W44ud1zyY
+z+f9LMJZMXPn4e3Tce7ZptXy2NKJ5PFv5xMyxy3rmCOj9Z6AQJ+av60LZDdMhMZM
+R971jzllqPkHLw2yEw==
+=Uqy3
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/oto
+
+==================================================================

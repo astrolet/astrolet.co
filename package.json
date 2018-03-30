@@ -1,16 +1,20 @@
 {
+  "name": "astrolet.co",
+  "private": true,
   "repository": {
     "type": "git",
-    "url": "git@github.com:astrolet/astrolet.github.io.git"
+    "url": "git@github.com:astrolet/astrolet.co.git"
   },
+  "homepage": "http://astrolet.co",
   "devDependencies": {
-    "beverage": "0.0.4",
-    "coffeelint": "^1.12.1",
-    "gulp": "^3.9.0",
-    "gulp-harp": "0.0.2",
-    "harp": "^0.19.0",
+    "beverage": "0.0.8",
+    "coffeelint": "^2.1.0",
+    "gulp": "^3.9.1",
+    "gulp-harp": "0.0.4",
+    "gulp-npm-run": "0.0.3",
+    "harp": "^0.25.0",
     "jstransformer-marked": "^1.0.1",
-    "surge": "^0.15.0"
+    "surge": "^0.20.1"
   },
   "scripts": {
     "style": "compass compile -c compass.rb",
