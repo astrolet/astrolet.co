@@ -8,12 +8,13 @@
   "homepage": "http://astrolet.co",
   "devDependencies": {
     "beverage": "0.0.8",
-    "coffeelint": "^1.15.7",
+    "coffeelint": "^2.1.0",
     "gulp": "^3.9.1",
     "gulp-harp": "0.0.4",
-    "harp": "^0.20.3",
+    "gulp-npm-run": "0.0.3",
+    "harp": "^0.25.0",
     "jstransformer-marked": "^1.0.1",
-    "surge": "^0.18.0"
+    "surge": "^0.20.1"
   },
   "scripts": {
     "style": "compass compile -c compass.rb",
