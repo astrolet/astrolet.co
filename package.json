@@ -18,7 +18,8 @@
   },
   "scripts": {
     "style": "compass compile -c compass.rb",
-    "build": "npm run style && node_modules/.bin/harp compile src www",
+    "build":
+      "npm run style && node_modules/.bin/harp compile src www && cp -r add/* src",
     "deploy": "node_modules/.bin/surge www"
   },
   "license": "CC-BY-SA-4.0"

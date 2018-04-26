@@ -1,0 +1,7 @@
+# These are for deploying to `astrolet.netlify.com`.
+
+# 301-redirect www for domain aliases becoming naked:
+https://www.astrome.com/* https://astrome.com/:splat 301!
+
+# 302-redirect naked domain aliases to primary domain:
+https://astrome.com/* https://astrolet.co/:splat 302!
